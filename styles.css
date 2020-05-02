@@ -1,0 +1,61 @@
+@import url(https://fonts.googleapis.com/css?family=Lato);
+body { 
+    background-color: white;
+    background-image: url("backgroundImage.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: bottom;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+h1{
+    font-family: "Lato";
+    justify-content: center;
+    align-items: center;
+}
+
+h2 {
+    font-size: 3em;
+    height: 75%;
+    line-height: 1;
+    width: 100%;
+    color: black;
+    font-family: "Lato";
+}
+
+button{
+    background-color: #5b6467;
+    background-image: linear-gradient(315deg, #5b6467 0%, #8b939a 74%);
+    color: white;
+    padding: 12px;
+    font-family: "Lato";
+    font-weight: 500;
+    font-size: 1.2em;
+    border-radius: 8px;
+}
+
+h3{
+    font-size: 10px;
+    color: black;
+    font-family:"Lato";
+    justify-content: center;
+    align-items: center;
+}
+
+ #snowflakeContainer {
+    position: absolute;
+  }
+
+  .snowflake {
+    position: fixed;
+    background-color: white;
+    z-index: 1000;
+    pointer-events: none;
+    border-radius: 50%;
+    width: 13px;
+    height: 13px;
+  }
