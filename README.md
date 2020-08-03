@@ -1,4 +1,4 @@
-# advice-page
+# Daily Advice Web Page
 
 This is a cute one page website where random advice is generated for users to enjoy (powered by Advice Slip API). 
 The inspiration for this project came from softscienceprojects and the featured snow effect is from kirupa. 
