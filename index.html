@@ -1,23 +1,29 @@
 <!--Project inspired by softscienceprojects --> 
-<!-- Snow effect from kirupa -->
+<!-- Snow effect from hcodes -->
 <!DOCTYPE html>
     <head>
         <meta charset="utf-8">
         <title>Daily Advice</title>
         <link href="favicon.png" rel="icon">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="styles.css">
     </head>
     <body>
         <div id="snowflakeContainer">
-             <span class="snowflake"></span>
+            <span class="snowflake"></span>
         </div>
-
         <h1>Want to Learn Something Today?</h1>
         <h2 id="advice"></h2>
         <button id="more">Click For More</button>
         <h3>Powered by Advice Slip API.</h3>
-        
         <script src="app.js"></script>
+        <script src="https://unpkg.com/magic-snowflakes/dist/snowflakes.min.js"></script>
+    <script>
+        var sf = new Snowflakes({
+            color: "#ecf0f1",
+            count: 30,
+            speed: 2
+        });
+    </script>
     </body>
 </html>
