@@ -1,7 +1,7 @@
 # Daily Advice Web Page
 
 This is a cute one page website where random advice is generated for users to enjoy (powered by Advice Slip API). 
-The inspiration for this project came from softscienceprojects and the featured snow effect is from hcodes. 
+The inspiration for this project came from <u>softscienceprojects</u> and the featured snow effect is from <u>hcodes</u>. 
 
 This was a fun, little, quick project for me to do to gain an understanding in API's and their uses in addition to practising some web develpment/design skills. 
 I had a lot of fun creating this and hope you will learn some cool advice for the day from visiting. 
